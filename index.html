@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taskora - Revolutionizing Microtasks. Connect with verified freelancers across India for your tasks.">
+    <title>Taskora - Revolutionizing Microtasks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 2L2 8L16 14L30 8L16 2Z" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 16L16 22L30 16" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 24L16 30L30 24" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span>Taskora</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#why-taskora" class="nav-link">Why Taskora</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-button">Get Started <span>→</span></a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="pulse"></span>
+                    Now Live in India
+                </div>
+                <h1>Get Your Tasks Done with <span class="gradient-text">Verified Experts</span></h1>
+                <p class="hero-subtitle">Connect with skilled freelancers for quick tasks, or earn by completing tasks - all on one trusted platform.</p>
+                <div class="hero-cta">
+                    <a href="#" class="button button-primary">
+                        <span>Post a Task</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button-secondary">
+                        <span>Become a Tasker</span>
+                        <i class="fas fa-user-plus"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10k+</span>
+                        <span class="stat-label">Active Taskers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50k+</span>
+                        <span class="stat-label">Tasks Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.8/5</span>
+                        <span class="stat-label">User Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-cards">
+                    <div class="task-card">
+                        <div class="task-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="task-content">
+                            <h4>Data Entry Project</h4>
+                            <p>₹2,000 • 2 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="task-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="task-content">
+                            <h4>Logo Design</h4>
+                            <p>₹5,000 • 1 hour ago</p>
+                        </div>
+                    </div>
+                    <div class="task-card">
+                        <div class="task-icon"><i class="fas fa-camera"></i></div>
+                        <div class="task-content">
+                            <h4>Product Photography</h4>
+                            <p>₹3,500 • Just now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header reveal-element">
+                <span class="section-tag">Why Choose Us</span>
+                <h2>Everything you need to get work done</h2>
+                <p>Simple, reliable, and designed for business of any size</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Verified Experts</h3>
+                    <p>All taskers are verified and skilled in their domains</p>
+                </div>
+                <div class="feature-card reveal-element">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Quick Turnaround</h3>
+                    <p>Get your tasks completed within hours</p>
+                </div>
+                <div class="feature-card reveal-right">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>Money is released only after task completion</p>
+                </div>
+                <div class="feature-card reveal-left">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is always here to help you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Simple Process</span>
+                <h2>How Taskora Works</h2>
+                <p>Get started in minutes, not hours</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Post Your Task</h3>
+                        <p>Describe what you need, set your budget, and timeline</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Get Matched</h3>
+                        <p>Receive proposals from verified taskers within minutes</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Task Completed</h3>
+                        <p>Work is done and payment is released securely</p>
+                    </div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2>What Our Users Say</h2>
+                <p>Join thousands of satisfied users</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=John+Doe&background=6C63FF&color=fff" alt="John Doe">
+                        <div>
+                            <h4>John Doe</h4>
+                            <p>Business Owner</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>"Taskora has transformed how I handle small tasks. The quality of work and quick turnaround time is impressive!"</p>
+                </div>
+                <div class="testimonial-card featured">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=Sarah+Johnson&background=4CAF50&color=fff" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Freelancer</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>"As a freelancer, Taskora provides me with consistent work opportunities. The platform is user-friendly and payments are always on time."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://ui-avatars.com/api/?name=Raj+Patel&background=FF6B6B&color=fff" alt="Raj Patel">
+                        <div>
+                            <h4>Raj Patel</h4>
+                            <p>Startup Founder</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p>"Perfect platform for getting quick tasks done. The verification process ensures quality work every time."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Join thousands of users who trust Taskora for their work</p>
+                <div class="cta-buttons">
+                    <a href="#" class="button button-primary">
+                        <span>Post Your First Task</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="button button-secondary">
+                        <span>Learn More</span>
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="cta-image">
+                <img src="https://via.placeholder.com/500x300" alt="Taskora Platform">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 2L2 8L16 14L30 8L16 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 16L16 22L30 16" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 24L16 30L30 24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span>Taskora</span>
+                    </div>
+                    <p>Revolutionizing how work gets done</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for tips and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit" class="button button-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Taskora. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
